@@ -1,0 +1,13 @@
+const cont = document.getElementById('cont');
+
+function incrementar() {
+    cont.textContent = parseInt(cont.textContent)+1;
+}
+
+function decrementar () {
+    cont.textContent = parseInt(cont.textContent)-1;
+}
+
+function resetar() {
+    cont.textContent = 0;
+}
